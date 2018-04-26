@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     # Dev
     psmisc \
     tree \
+    nano \
     # For djangosaml2
     xmlsec1 \
  && rm -rf /var/lib/apt/lists/*
